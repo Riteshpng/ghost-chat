@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { redis } from "@/lib/redis"
 import { Elysia, t } from "elysia"
 import { nanoid } from "nanoid"
