@@ -43,10 +43,10 @@ function Lobby() {
     <main className="relative flex min-h-screen flex-col items-center justify-center p-4 overflow-hidden bg-black selection:bg-green-500/30">
       
       
-      <div className="absolute inset-0 z-0 h-full w-full bg-[radial-gradient(#27272a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50" />
+<div className="absolute inset-0 z-0 h-full w-full bg-[radial-gradient(#27272a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_at_center,black_70%,transparent_100%)] opacity-50" />
       
       {/* 2. GLOW EFFECT */}
-      <div className="absolute z-0 bg-green-500/10 w-96 h-96 blur-[128px] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute z-0 bg-green-500/25 w-96 h-96 blur-[128px] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse" />
 
       <div className="relative z-10 w-full max-w-md space-y-8">
         
