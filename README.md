@@ -1,12 +1,18 @@
 # 👻 GhostChat: Encrypted Ephemeral Messaging
 
+<div align="center">
+  <a href="https://ghost-chat-sn71.onrender.com">
+    <img src="https://img.shields.io/badge/🟢_Live_Demo-Visit_App-2ea44f?style=for-the-badge&logo=render" alt="Live Demo" height="35" />
+  </a>
+</div>
+
+<br />
+
+![GhostChat Interface](https://via.placeholder.com/1200x600?text=Paste+Your+Chat+Screenshot+Here)
+
+> **Zero-trace conversations. Encrypted at rest. Deleted forever.**
+
 ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Redis](https://img.shields.io/badge/Upstash-Redis-red) ![Status](https://img.shields.io/badge/Status-Production_Ready-green)
-
-**GhostChat** is a secure, real-time communication tool designed for zero-trace conversations.
-
-Built on top of a modern Next.js + Redis foundation, this project extends standard real-time capabilities with a custom **Encryption-at-Rest** layer, ensuring that message data remains chemically secure even if the database is compromised.
-
-**[🚀 View Live Demo](https://your-vercel-link-here.com)**
 
 ---
 
@@ -67,7 +73,7 @@ Cleanup: A delete trigger flushes all associated keys instantly upon manual dest
 1. Clone the repository
 Bash
 
-git clone [https://github.com/yourusername/ghost-chat.git](https://github.com/yourusername/ghost-chat.git)
+git clone [https://github.com/Riteshpng/ghost-chat.git](https://github.com/Riteshpng/ghost-chat.git)
 cd ghost-chat
 2. Install dependencies
 Bash
@@ -76,9 +82,9 @@ npm install
 # or
 bun install
 3. Environment Setup
-Create a .env.local file with your Upstash credentials and a 32-character random string for encryption:
+Create a .env.local file with your Upstash credentials:
 
-Code snippet
+Bash
 
 ENCRYPTION_KEY="your_super_secret_32_char_key_here"
 UPSTASH_REDIS_REST_URL="..."
@@ -89,12 +95,7 @@ NEXT_PUBLIC_UPSTASH_REALTIME_TOKEN="..."
 Bash
 
 npm run dev
-🤝 Credits & Acknowledgements
-This project was built to explore advanced Next.js patterns and Cryptography.
+🤝 Credits
+This project was built to explore advanced Next.js patterns and Cryptography. Core realtime architecture inspired by open-source patterns. Encryption, Middleware Security, and UI Optimizations implemented by Ritesh.
 
-Core realtime architecture inspired by open-source patterns.
-
-Encryption, Middleware Security, and UI Optimizations implemented by [Your Name].
-
-📄 License
-MIT
+📄 License: MIT
